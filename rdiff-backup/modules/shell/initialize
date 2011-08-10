@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+configure_command="true"
+
+build_command="python setup.py build --prefix=${install_path}"
+
+install_command="python setup.py build --prefix=${install_path}"
+
