@@ -1,0 +1,5 @@
+version=1.2.8
+base_url=http://savannah.nongnu.org/download/rdiff-backup/
+archive_format=tar.gz
+website_url=http://www.nongnu.org/rdiff-backup/
+docs_url=http://www.nongnu.org/rdiff-backup/docs.html
