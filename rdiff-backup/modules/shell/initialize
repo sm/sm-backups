@@ -2,7 +2,7 @@
 
 configure_command="true"
 
-build_command="python setup.py build --prefix=${install_path}"
+build_command="true"
 
-install_command="python setup.py build --prefix=${install_path}"
+install_command="python setup.py install --prefix=${install_path}" # "--librsync-dir=#{active_path}"
 
