@@ -1,2 +1,10 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
+rdiff-backup_initialize()
+{
+  configure_command="true"
+
+  build_command="true"
+
+  install_command="python setup.py install --prefix=${install_path}" # "--librsync-dir=#{active_path}"
+}
